@@ -1,0 +1,36 @@
+.aboutus{
+    background: var(--about);
+    position: relative;
+    height: 75vh;
+    padding-bottom: 10%;
+}
+
+
+
+.text-details{
+    color: var(--white);
+    font-weight: 400;
+    font-size: var(--fs-200);
+    width: 70%;
+    z-index: 100;
+}
+
+.text-layer{
+    font-weight: 900;
+    font-size: var(--fs-xl);
+    width: 100%;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10%;
+    color: var(--white);
+    opacity: 0.3;
+    z-index: 0;
+  }
+  .text-layer>div{
+    text-align: center;
+  }
+  .text-layer>div>span{
+    display: block;
+    line-height: 180px;
+    z-index: 0;
+  }

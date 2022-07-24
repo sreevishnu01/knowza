@@ -1,0 +1,25 @@
+.hero{
+    background: var(--black);
+    padding-bottom: 10%;
+}
+
+
+.hero-text{
+    color: var(--red);
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 87px;
+
+}
+.hero-text>span{
+    color: var(--white);
+    display: block;
+}
+
+.hero-text-detail{
+    color: var(--white);
+    font-weight: 400;
+    font-size: 1.5rem;
+    width: 50%;
+}

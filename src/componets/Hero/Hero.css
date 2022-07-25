@@ -6,7 +6,7 @@
 
 .hero-text{
     color: var(--red);
-    font-size: 5rem;
+    font-size: var(--fs-500);
     text-transform: uppercase;
     font-weight: 700;
     line-height: 87px;

@@ -12,6 +12,7 @@
 
   --fs-200: 1.8rem;
   --fs-400: 4rem;
+  --fs-500:5rem;
   --fs-600: 6rem;
   --fs-xl: clamp(3.5rem, 15vw + 1rem, 14rem)
 
@@ -100,4 +101,16 @@ body {
       position: absolute;
       top: 50%;
       left: 0;
+  }
+
+
+  @media screen and (max-width:768px) {
+    :root{
+
+      --fs-500:3rem;
+    }
+
+    .row{
+      flex-direction: column;
+    }
   }

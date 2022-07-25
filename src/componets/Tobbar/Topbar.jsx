@@ -11,7 +11,7 @@ function Topbar() {
                 <li>About Us</li>
                 <li>Service</li>
                 <li>portfoilo</li>
-                <li>Contacy us</li>
+                <li>Contact us</li>
             </ul>
         </header>
   )

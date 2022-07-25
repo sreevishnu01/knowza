@@ -12,6 +12,7 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -22,4 +23,28 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
+
+  <script>
+    function getRandomColor() { //To give me a new rgb number everytime
+  let color = (Math.floor(Math.random() * (255 - 10)) + 10);
+  return `rgb(${color}, ${color}, ${color})`;
+}
+let color = getRandomColor()
+// (function changeColor() {
+
+// setInterval(() => {
+//     color = getRandomColor();
+//   },
+
+//   1000);
+// })() 
+    const mouseeeConfig = {
+color: "#124ed9",  // cursor border color
+size: 50,  // cursor size
+trailColor: color,  // trail color
+trailTime: 400  // trail duration time
+}
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mouseee@1.1.2/lib/index.js" type="module"></script>
 </html>

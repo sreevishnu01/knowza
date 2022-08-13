@@ -12,7 +12,7 @@ function App() {
     <div className="App">
 
       <Hero />
-      <Mouse />
+      {/* <Mouse /> */}
       <About />
       <Service />
       <Footer />
